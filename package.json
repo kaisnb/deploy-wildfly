@@ -1,0 +1,22 @@
+{
+  "name": "deploy-wildfly",
+  "version": "1.0.0",
+  "description": "Tool to deploy a file to wildfly from your commandline.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "npm pack"
+  },
+  "bin": {
+    "deploy-wildfly": "bin/index.js"
+  },
+  "keywords": [
+    "deploy",
+    "wildfly"
+  ],
+  "author": "Kai Schönberger",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
