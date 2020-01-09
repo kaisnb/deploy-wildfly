@@ -33,6 +33,10 @@ These are all possible configration parameters. They are all required and have n
 
 -   **PASS** — Password for the wildfly management interface.
 
+## TODO
+
+- Fix error for initial deployments when no war is currently deployed
+
 ## License
 
 Everything in this repository is [licensed under the MIT License][license] unless otherwise specified.
